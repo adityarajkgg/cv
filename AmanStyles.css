@@ -1,0 +1,257 @@
+*{
+    margin: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+
+}
+.navbar{
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    align-items: center;
+
+
+
+}
+.navlogo{
+    height: 60px;
+    width: 100px;
+}
+
+.logo{
+    background-image: url(./amazon_logo.png);
+    background-size: cover;
+    height: 60px;
+    width: 100%
+
+
+
+
+}
+.logo:hover{
+    border: 1px solid white;
+    border-radius: 15px;
+
+}
+.address{
+    margin-left: 15px;
+}
+.address:hover{
+    border: 2px solid white;
+
+}
+.a1{
+    color: grey;
+    font-size: 14px;
+    margin-left: 20px;
+}
+.a2{
+    color: white;
+    font-size: 20px;
+    margin-left: 5px;
+}
+.addressicon{
+    display: flex;
+
+}
+i{
+    margin-left: 5px;
+}
+.searchbar{
+    display: flex;
+    align-items: center;
+    margin-left: 15px;
+}
+input{
+    margin-left: 15px;
+    width: 950px;
+    height: 40px;
+    /* margin-bottom: 8px; */
+    font-size: larger;
+}
+.text{
+    margin-left: 20px;
+}
+/* .text:hover{
+    border: 2px solid white;
+    border-radius: 2px;
+} */
+.text2{margin-left: 45px;}
+.f1{
+    font-size: 12px;
+    color: grey;
+}
+.f2{
+    font-size: 14px;
+    font-weight: 700;
+}
+.lastbox{
+    margin-left: 50px;
+
+    display: flex;
+}
+i{
+    font-size: larger;
+}
+.f3{
+    font-size: small;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+.belownav{
+    display: flex;
+    height: 40px;
+    background-color: #222f3d;
+    color: aliceblue;
+    align-items: center;
+  ;
+
+
+}
+.options{
+    margin-left: 50px;
+    display: flex;
+
+}
+.g1{
+    margin-left: 10px;
+}
+.herosection{
+    background-image: url(./51RPiINhM7L._SX1500_.jpg);
+    height: 400px;
+    background-size: cover;
+    background-color: white;
+    color: black;
+    display: flex;
+    align-items: flex-end;
+}
+.amazonmsg{
+    height: 40px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    margin-bottom: 0.8%;
+
+
+}
+
+.amazonmsg a{
+    /* text-decoration: none; */
+    color: green;
+}
+.shoppingbox{
+    display: flex;
+
+    justify-content: space-evenly;
+    background-color: pink;
+
+}
+.box{ border: 2px solid black;
+
+    height: 400px;
+    width: 23%;
+    background-color: aliceblue;
+    /* padding: 20px 0px 15px; */
+
+
+}
+.image1{
+    background-image: url(./Fuji_Dash_Beauty_1x._SY304_CB432774351_.jpg);
+    height: 350px;
+    /* padding: 5px 5px; */
+
+}
+.image2{
+    background-image: url(./GW_CONS_AUS_HPC_HPCEssentials_CatCard_Desktop1x._SY304_CB627424361_.jpg);
+    height: 350px;
+}
+.image3{
+    background-image: url(./Fuji_Quad_Chair_1x._SY116_CB667159060_.jpg);
+    height: 350px;
+}
+.image4{
+    background-image: url(./Fuji_Dash_Electronics_1x._SY304_CB432774322_.jpg);
+    height: 350px;
+}
+.contentbox{
+    display: flex;
+    justify-content: space-evenly;
+    background-color:pink ;
+
+}
+.box2{
+    border: 2px solid black;
+    height: 400px;
+    width: 23%;
+    background-color: aliceblue;
+}
+.image4{
+    background-image: url(./Fuji_Dash_Electronics_1x._SY304_CB432774322_.jpg);
+    height: 350px;
+}
+.image5{
+    background-image: url(./mp_20230210_newarrivals_desktopsinglecategory_desktop_379x304._SY304_CB613668625_.jpg);
+
+    height: 400px;
+    background-repeat: no-repeat;
+}
+.image6{
+    background-image: url(./XCM_CUTTLE_1475305_2610205_379x304_1X_en_US._SY304_CB608600856_.jpg);
+    height: 320px;
+}
+.image7{
+    background-image: url(./mp_20230219_ff_desktopsinglecategory_desktop_379x304_1._SY304_CB612639047_.jpg);
+    height: 350px;
+}
+.contentbox3{
+    display: flex;
+    background-color: pink;
+    justify-content: space-evenly;
+}
+.box3{
+    border: 2px solid black;
+    height: 400px;
+    width: 25%;
+    background-color: aliceblue;
+}
+    .image8{
+        background-image: url(./Fuji_Dash_Laptops_379x304_1X_en_US._SY304_CB418608471_.jpg);
+        height: 350px;
+    }
+    .image9{
+        background-image: url(./Fuji_Dash_SmartWatch_1X._SY304_CB639922137_.jpg);
+        height: 380px;
+        background-repeat: no-repeat;
+    }
+    .image10{
+        background-image: url(./Fuji_Dash_StripLighting_379x304_1X_en_US._SY304_CB418597476_.jpg);
+        height: 350px;
+    }
+    .first{
+        background-color: hsl(180, 6%, 6%);
+        color: aliceblue;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 0.8rem;
+        margin-top: 15px;
+    }
+    .second{
+       background-color: #222f3d;
+        color: aliceblue;
+        height: 300px;
+        display: flex;
+        justify-content: space-evenly;
+
+    }
+    .second p{
+    padding: 10px;
+    }
+    .second a{
+        display: block;
+        margin: 1%;
+    }
